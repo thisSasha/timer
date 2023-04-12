@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+    <link rel='stylesheet' href='./css/style.css'>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Таймер</title>
+</head>
+
+<body>
+    <h1>Timer</h1>
+    <h2><span id="minutes">0</span>:<span id="seconds">0</span> осталось до конца</h2>
+    <h3>Отдых через <span id="chill">0</span> минут</h3>
+    <label for="timeInp">Время работы:</label>
+    <input id="timeInp" min="1" type="number" placeholder="минут">
+    <br>
+    <label for="timer">Отдых каждые:</label>
+    <input type="number" min="0" id="chillTime" placeholder="минут">
+    <br>
+    <label for="timeOfChill">Время отдыха:</label>
+    <input type="number" min="0" id="timer" placeholder="минут">
+    <button type="submit">Включить</button>
+    <script src='./js/mainScript.js'></script>
+</body>
+
+</html>

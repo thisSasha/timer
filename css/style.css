@@ -1,0 +1,15 @@
+input{
+    margin-bottom: 10px;
+    width: 16%;
+    font-size: 1em;
+    text-align: center;
+    height: 5vh;
+}
+body{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+}
