@@ -2,12 +2,12 @@ document.querySelector('button').onclick = function () {
     let time = document.querySelector('#timeInp').value;
     let timeMinutes = time - 1;
     let interval = false;
-    let timeSeconds = 20;
+    let timeSeconds = 60;
     let timerInterval = setInterval(() => {
         interval = true;
         timeSeconds--;
         if (timeSeconds <= 0) {
-            timeSeconds = 20;
+            timeSeconds = 60;
             timeMinutes--;
         };
         if (timeMinutes < 0) {
